@@ -9,6 +9,7 @@ const nextConfig = {
         pathname: '/storage/**',
       },
     ],
+    domains: ["laravel-api-backend-production.up.railway.app"],
   },
 };
 
