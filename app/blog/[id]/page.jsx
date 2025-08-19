@@ -1,7 +1,7 @@
 export default async function BlogDetail({ params }) {
   const { id } = await params; // ✅ karena params sekarang Promise di Next.js 15
 
-  const res = await fetch(`http://127.0.0.1:8000/api/blogs/${id}`);
+  const res = await fetch(`https://laravel-api-backend-production.up.railway.app/api/blogs/${id}`);
   const blog = await res.json();
 
   return (
@@ -9,7 +9,7 @@ export default async function BlogDetail({ params }) {
       <h1 className="text-4xl font-bold mb-4">{blog.title}</h1>
       {blog.image && (
         <img
-          src={`http://127.0.0.1:8000/storage/${blog.image}`}
+          src={`https://laravel-api-backend-production.up.railway.app/api/blogs/storage/${blog.image}`}
           alt={blog.title}
           className="w-full rounded-lg mb-6"
         />
