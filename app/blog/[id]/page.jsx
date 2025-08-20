@@ -13,7 +13,7 @@ export default async function BlogDetail({ params }) {
       <a href="/" className="bg-orange-500 py-3 px-6 text-white rounded-full">
         Back
       </a>
-      <h1 className="text-4xl font-bold mb-4">{blog.title}</h1>
+      <h1 className="text-4xl font-bold mb-4 mt-4">{blog.title}</h1>
       {blog.image && (
         <Image
           src={blog.image}
