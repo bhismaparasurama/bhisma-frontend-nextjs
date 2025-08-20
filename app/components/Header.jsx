@@ -14,7 +14,7 @@ const Header = () => {
                 <div className='w-96 max-[500px]:flex max-[500px]:flex-col max-[500px]:items-center max-[500px]:w-full'>
                     <h3 className='text-orange-500 font-Montserrat font-medium tracking-wide text-4xl max-[1000px]:text-2xl'>1 Agustus 2025</h3>
                     <p className='text-white/60 font-Opensans text-xl max-[1000px]:text-base max-[500px]:text-center'>Don't be lazy because it is a parasite of life that will destroy your life.</p>
-                    {/* <span className='font-bold font-Opensans text-xl max-[1000px]:text-base text-white'>Putu Sinta Pridiantini</span> */}
+                    <span className='font-bold font-Opensans text-xl max-[1000px]:text-base text-white'>Putu Sinta Pridiantini</span>
                 </div>
                 <div className='max-[500px]:hidden'>
                     <h3 className='text-orange-500 font-Montserrat font-medium tracking-wide text-4xl max-[1000px]:text-2xl text-right'>3 years</h3>
