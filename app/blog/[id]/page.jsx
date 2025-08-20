@@ -10,6 +10,9 @@ export default async function BlogDetail({ params }) {
 
   return (
     <div className="max-w-4xl mx-auto p-6 bg-gray-100">
+      <a href="/" className="bg-orange-500 py-3 px-6 text-white rounded-full">
+        Back
+      </a>
       <h1 className="text-4xl font-bold mb-4">{blog.title}</h1>
       {blog.image && (
         <Image
